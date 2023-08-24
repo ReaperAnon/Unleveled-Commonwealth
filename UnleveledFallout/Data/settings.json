@@ -1,0 +1,890 @@
+{
+  "fAVDHealthStartEndMult": 3.181818,
+  "fHealthEnduranceOffset": 0.0,
+  "fHealthEnduranceMult": 0.0,
+  "fNPCHealthLevelBonus": 0.0,
+  "fPCHealthLevelBonus": 0.0,
+  "RaceEntries": [
+    {
+      "Races": [
+        "184C4D:Fallout4.esm"
+      ],
+      "MinimumHealth": 50.0,
+      "MaximumHealth": 150.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 0.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 0.0
+    },
+    {
+      "Races": [
+        "0D8417:Fallout4.esm"
+      ],
+      "MinimumHealth": 300.0,
+      "MaximumHealth": 400.0,
+      "MinimumPhysicalResist": 300.0,
+      "MaximumPhysicalResist": 300.0,
+      "MinimumEnergyResist": 10.0,
+      "MaximumEnergyResist": 20.0
+    },
+    {
+      "Races": [
+        "0BB7D9:Fallout4.esm",
+        "001EE2:ClassicBehemoth.esp"
+      ],
+      "MinimumHealth": 2000.0,
+      "MaximumHealth": 2600.0,
+      "MinimumPhysicalResist": 50.0,
+      "MaximumPhysicalResist": 75.0,
+      "MinimumEnergyResist": 25.0,
+      "MaximumEnergyResist": 50.0
+    },
+    {
+      "Races": [
+        "029463:Fallout4.esm",
+        "000A61:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 10.0,
+      "MaximumHealth": 40.0,
+      "MinimumPhysicalResist": 10.0,
+      "MaximumPhysicalResist": 20.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 30.0
+    },
+    {
+      "Races": [
+        "02456D:Fallout4.esm",
+        "000A62:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 10.0,
+      "MaximumHealth": 30.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 5.0,
+      "MinimumEnergyResist": 15.0,
+      "MaximumEnergyResist": 40.0
+    },
+    {
+      "Races": [
+        "02047E:Fallout4.esm",
+        "000A52:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 200.0,
+      "MaximumHealth": 330.0,
+      "MinimumPhysicalResist": 10.0,
+      "MaximumPhysicalResist": 30.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 15.0
+    },
+    {
+      "Races": [
+        "0C9ACF:Fallout4.esm",
+        "000C79:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 20.0,
+      "MaximumHealth": 35.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 5.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 3.0
+    },
+    {
+      "Races": [
+        "01DB4A:Fallout4.esm",
+        "000C78:DLCworkshop01.esm",
+        "00D329:DLCNukaWorld.esm"
+      ],
+      "MinimumHealth": 750.0,
+      "MaximumHealth": 1250.0,
+      "MinimumPhysicalResist": 150.0,
+      "MaximumPhysicalResist": 225.0,
+      "MinimumEnergyResist": 150.0,
+      "MaximumEnergyResist": 225.0
+    },
+    {
+      "Races": [
+        "03578A:Fallout4.esm",
+        "187AF9:Fallout4.esm",
+        "000C7C:DLCworkshop01.esm",
+        "000C7D:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 60.0,
+      "MaximumHealth": 130.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 15.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 5.0
+    },
+    {
+      "Races": [
+        "0A563A:Fallout4.esm",
+        "00086F:CWCreateABot.esp"
+      ],
+      "MinimumHealth": 100.0,
+      "MaximumHealth": 150.0,
+      "MinimumPhysicalResist": 85.0,
+      "MaximumPhysicalResist": 100.0,
+      "MinimumEnergyResist": 5.0,
+      "MaximumEnergyResist": 25.0
+    },
+    {
+      "Races": [
+        "06B4EC:Fallout4.esm",
+        "000A54:DLCworkshop01.esm",
+        "01EA30:CWPointLookoutFO4.esm"
+      ],
+      "MinimumHealth": 100.0,
+      "MaximumHealth": 200.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 25.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 100.0
+    },
+    {
+      "Races": [
+        "0A96BF:Fallout4.esm",
+        "01EA8E:CWPointLookoutFO4.esm"
+      ],
+      "MinimumHealth": 125.0,
+      "MaximumHealth": 300.0,
+      "MinimumPhysicalResist": 10.0,
+      "MaximumPhysicalResist": 40.0,
+      "MinimumEnergyResist": 50.0,
+      "MaximumEnergyResist": 150.0
+    },
+    {
+      "Races": [
+        "0D9804:Fallout4.esm",
+        "000A56:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 375.0,
+      "MaximumHealth": 600.0,
+      "MinimumPhysicalResist": 50.0,
+      "MaximumPhysicalResist": 75.0,
+      "MinimumEnergyResist": 25.0,
+      "MaximumEnergyResist": 50.0
+    },
+    {
+      "Races": [
+        "013746:Fallout4.esm",
+        "0EAFB6:Fallout4.esm",
+        "000823:ClassicGhoulRace2022.esp",
+        "01EAA3:CWPointLookoutFO4.esm"
+      ],
+      "MinimumHealth": 90.0,
+      "MaximumHealth": 165.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 0.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 0.0
+    },
+    {
+      "Races": [
+        "023FFC:Fallout4.esm",
+        "000A5B:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 120.0,
+      "MaximumHealth": 250.0,
+      "MinimumPhysicalResist": 30.0,
+      "MaximumPhysicalResist": 50.0,
+      "MinimumEnergyResist": 40.0,
+      "MaximumEnergyResist": 75.0
+    },
+    {
+      "Races": [
+        "064C60:Fallout4.esm",
+        "000A8D:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 200.0,
+      "MaximumHealth": 300.0,
+      "MinimumPhysicalResist": 30.0,
+      "MaximumPhysicalResist": 50.0,
+      "MinimumEnergyResist": 40.0,
+      "MaximumEnergyResist": 75.0
+    },
+    {
+      "Races": [
+        "0B7F91:Fallout4.esm",
+        "000A8E:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 350.0,
+      "MaximumHealth": 420.0,
+      "MinimumPhysicalResist": 40.0,
+      "MaximumPhysicalResist": 50.0,
+      "MinimumEnergyResist": 60.0,
+      "MaximumEnergyResist": 75.0
+    },
+    {
+      "Races": [
+        "0E12A6:Fallout4.esm"
+      ],
+      "MinimumHealth": 2000.0,
+      "MaximumHealth": 2600.0,
+      "MinimumPhysicalResist": 65.0,
+      "MaximumPhysicalResist": 75.0,
+      "MinimumEnergyResist": 90.0,
+      "MaximumEnergyResist": 100.0
+    },
+    {
+      "Races": [
+        "01D810:Fallout4.esm",
+        "000C7F:DLCworkshop01.esm",
+        "001766:DCMolerats.esp"
+      ],
+      "MinimumHealth": 30.0,
+      "MaximumHealth": 120.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 15.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 15.0
+    },
+    {
+      "Races": [
+        "0359F4:Fallout4.esm",
+        "0027B9:DLCRobot.esm",
+        "000C05:DLCworkshop01.esm",
+        "02104F:SS2.esm"
+      ],
+      "MinimumHealth": 125.0,
+      "MaximumHealth": 350.0,
+      "MinimumPhysicalResist": 150.0,
+      "MaximumPhysicalResist": 300.0,
+      "MinimumEnergyResist": 20.0,
+      "MaximumEnergyResist": 35.0
+    },
+    {
+      "Races": [
+        "090C33:Fallout4.esm",
+        "000C82:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 250.0,
+      "MaximumHealth": 300.0,
+      "MinimumPhysicalResist": 15.0,
+      "MaximumPhysicalResist": 15.0,
+      "MinimumEnergyResist": 10.0,
+      "MaximumEnergyResist": 15.0
+    },
+    {
+      "Races": [
+        "0DFB33:Fallout4.esm",
+        "000BF8:CWCreateABot.esp",
+        "01EBC4:CWPointLookoutFO4.esm"
+      ],
+      "MinimumHealth": 100.0,
+      "MaximumHealth": 175.0,
+      "MinimumPhysicalResist": 100.0,
+      "MaximumPhysicalResist": 175.0,
+      "MinimumEnergyResist": 20.0,
+      "MaximumEnergyResist": 25.0
+    },
+    {
+      "Races": [
+        "04716C:Fallout4.esm",
+        "000A63:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 10.0,
+      "MaximumHealth": 25.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 5.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 5.0
+    },
+    {
+      "Races": [
+        "0636AB:Fallout4.esm",
+        "000A5C:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 350.0,
+      "MaximumHealth": 665.0,
+      "MinimumPhysicalResist": 125.0,
+      "MaximumPhysicalResist": 250.0,
+      "MinimumEnergyResist": 20.0,
+      "MaximumEnergyResist": 75.0
+    },
+    {
+      "Races": [
+        "07ED1D:Fallout4.esm",
+        "000A5D:DLCworkshop01.esm"
+      ],
+      "MinimumHealth": 50.0,
+      "MaximumHealth": 300.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 15.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 15.0
+    },
+    {
+      "Races": [
+        "0AE0B7:Fallout4.esm"
+      ],
+      "MinimumHealth": 700.0,
+      "MaximumHealth": 1000.0,
+      "MinimumPhysicalResist": 400.0,
+      "MaximumPhysicalResist": 450.0,
+      "MinimumEnergyResist": 30.0,
+      "MaximumEnergyResist": 45.0
+    },
+    {
+      "Races": [
+        "05FBB1:Fallout4.esm",
+        "000A64:DLCworkshop01.esm",
+        "03CF1E:DLCCoast.esm",
+        "033169:DLCNukaWorld.esm"
+      ],
+      "MinimumHealth": 35.0,
+      "MaximumHealth": 65.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 15.0,
+      "MinimumEnergyResist": 10.0,
+      "MaximumEnergyResist": 25.0
+    },
+    {
+      "Races": [
+        "01A009:Fallout4.esm",
+        "000800:DCSuperMutantsReplacer.esp",
+        "000FA6:DCWestSuperMutants.esp",
+        "000F99:DCWestSuperMutants.esp"
+      ],
+      "MinimumHealth": 400.0,
+      "MaximumHealth": 550.0,
+      "MinimumPhysicalResist": 20.0,
+      "MaximumPhysicalResist": 50.0,
+      "MinimumEnergyResist": 10.0,
+      "MaximumEnergyResist": 30.0
+    },
+    {
+      "Races": [
+        "0E8D09:Fallout4.esm"
+      ],
+      "MinimumHealth": 100.0,
+      "MaximumHealth": 175.0,
+      "MinimumPhysicalResist": 80.0,
+      "MaximumPhysicalResist": 125.0,
+      "MinimumEnergyResist": 5.0,
+      "MaximumEnergyResist": 15.0
+    },
+    {
+      "Races": [
+        "10BD65:Fallout4.esm",
+        "2261A4:Fallout4.esm",
+        "042EBB:DLCCoast.esm"
+      ],
+      "MinimumHealth": 160.0,
+      "MaximumHealth": 250.0,
+      "MinimumPhysicalResist": 100.0,
+      "MaximumPhysicalResist": 150.0,
+      "MinimumEnergyResist": 10.0,
+      "MaximumEnergyResist": 25.0
+    },
+    {
+      "Races": [
+        "1A6D64:Fallout4.esm",
+        "0B1F08:Fallout4.esm",
+        "020475:CWPointLookoutFO4.esm"
+      ],
+      "MinimumHealth": 100.0,
+      "MaximumHealth": 200.0,
+      "MinimumPhysicalResist": 125.0,
+      "MaximumPhysicalResist": 200.0,
+      "MinimumEnergyResist": 5.0,
+      "MaximumEnergyResist": 25.0
+    },
+    {
+      "Races": [
+        "0B28D3:Fallout4.esm",
+        "009591:DLCCoast.esm"
+      ],
+      "MinimumHealth": 75.0,
+      "MaximumHealth": 150.0,
+      "MinimumPhysicalResist": 100.0,
+      "MaximumPhysicalResist": 150.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 20.0
+    },
+    {
+      "Races": [
+        "0D77E3:Fallout4.esm"
+      ],
+      "MinimumHealth": 1400.0,
+      "MaximumHealth": 1600.0,
+      "MinimumPhysicalResist": 300.0,
+      "MaximumPhysicalResist": 400.0,
+      "MinimumEnergyResist": 50.0,
+      "MaximumEnergyResist": 60.0
+    },
+    {
+      "Races": [
+        "0A0F2F:Fallout4.esm",
+        "000A5F:DLCworkshop01.esm",
+        "000824:CWYaoGuai.esl"
+      ],
+      "MinimumHealth": 350.0,
+      "MaximumHealth": 650.0,
+      "MinimumPhysicalResist": 20.0,
+      "MaximumPhysicalResist": 40.0,
+      "MinimumEnergyResist": 15.0,
+      "MaximumEnergyResist": 30.0
+    },
+    {
+      "Races": [
+        "001129:DLCRobot.esm",
+        "033E79:DLCCoast.esm"
+      ],
+      "MinimumHealth": 200.0,
+      "MaximumHealth": 300.0,
+      "MinimumPhysicalResist": 100.0,
+      "MaximumPhysicalResist": 175.0,
+      "MinimumEnergyResist": 15.0,
+      "MaximumEnergyResist": 25.0
+    },
+    {
+      "Races": [
+        "00FEEA:DLCCoast.esm"
+      ],
+      "MinimumHealth": 600.0,
+      "MaximumHealth": 900.0,
+      "MinimumPhysicalResist": 30.0,
+      "MaximumPhysicalResist": 40.0,
+      "MinimumEnergyResist": 175.0,
+      "MaximumEnergyResist": 250.0
+    },
+    {
+      "Races": [
+        "03FD66:DLCCoast.esm"
+      ],
+      "MinimumHealth": 10.0,
+      "MaximumHealth": 30.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 0.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 0.0
+    },
+    {
+      "Races": [
+        "014174:DLCCoast.esm"
+      ],
+      "MinimumHealth": 1000.0,
+      "MaximumHealth": 1400.0,
+      "MinimumPhysicalResist": 200.0,
+      "MaximumPhysicalResist": 300.0,
+      "MinimumEnergyResist": 200.0,
+      "MaximumEnergyResist": 300.0
+    },
+    {
+      "Races": [
+        "0247C1:DLCCoast.esm"
+      ],
+      "MinimumHealth": 350.0,
+      "MaximumHealth": 750.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 25.0,
+      "MinimumEnergyResist": 50.0,
+      "MaximumEnergyResist": 150.0
+    },
+    {
+      "Races": [
+        "04E28E:DLCCoast.esm"
+      ],
+      "MinimumHealth": 350.0,
+      "MaximumHealth": 600.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 15.0,
+      "MinimumEnergyResist": 50.0,
+      "MaximumEnergyResist": 70.0
+    },
+    {
+      "Races": [
+        "0180A8:DLCCoast.esm"
+      ],
+      "MinimumHealth": 1600.0,
+      "MaximumHealth": 2300.0,
+      "MinimumPhysicalResist": 125.0,
+      "MaximumPhysicalResist": 200.0,
+      "MinimumEnergyResist": 100.0,
+      "MaximumEnergyResist": 300.0
+    },
+    {
+      "Races": [
+        "03DDDE:DLCCoast.esm"
+      ],
+      "MinimumHealth": 10.0,
+      "MaximumHealth": 25.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 5.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 0.0
+    },
+    {
+      "Races": [
+        "03D077:DLCCoast.esm"
+      ],
+      "MinimumHealth": 100.0,
+      "MaximumHealth": 175.0,
+      "MinimumPhysicalResist": 10.0,
+      "MaximumPhysicalResist": 25.0,
+      "MinimumEnergyResist": 5.0,
+      "MaximumEnergyResist": 15.0
+    },
+    {
+      "Races": [
+        "019126:DLCNukaWorld.esm"
+      ],
+      "MinimumHealth": 70.0,
+      "MaximumHealth": 110.0,
+      "MinimumPhysicalResist": 30.0,
+      "MaximumPhysicalResist": 50.0,
+      "MinimumEnergyResist": 5.0,
+      "MaximumEnergyResist": 15.0
+    },
+    {
+      "Races": [
+        "00CE5E:DLCNukaWorld.esm"
+      ],
+      "MinimumHealth": 10.0,
+      "MaximumHealth": 150.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 35.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 0.0
+    },
+    {
+      "Races": [
+        "00A1A6:DLCNukaWorld.esm"
+      ],
+      "MinimumHealth": 20.0,
+      "MaximumHealth": 120.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 0.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 0.0
+    },
+    {
+      "Races": [
+        "023435:DLCNukaWorld.esm"
+      ],
+      "MinimumHealth": 300.0,
+      "MaximumHealth": 420.0,
+      "MinimumPhysicalResist": 20.0,
+      "MaximumPhysicalResist": 30.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 5.0
+    },
+    {
+      "Races": [
+        "00AAFE:DLCNukaWorld.esm"
+      ],
+      "MinimumHealth": 50.0,
+      "MaximumHealth": 115.0,
+      "MinimumPhysicalResist": 15.0,
+      "MaximumPhysicalResist": 25.0,
+      "MinimumEnergyResist": 15.0,
+      "MaximumEnergyResist": 25.0
+    },
+    {
+      "Races": [
+        "03637A:DLCNukaWorld.esm"
+      ],
+      "MinimumHealth": 800.0,
+      "MaximumHealth": 900.0,
+      "MinimumPhysicalResist": 125.0,
+      "MaximumPhysicalResist": 150.0,
+      "MinimumEnergyResist": 225.0,
+      "MaximumEnergyResist": 250.0
+    },
+    {
+      "Races": [
+        "04CBCE:DLCNukaWorld.esm"
+      ],
+      "MinimumHealth": 375.0,
+      "MaximumHealth": 460.0,
+      "MinimumPhysicalResist": 10.0,
+      "MaximumPhysicalResist": 50.0,
+      "MinimumEnergyResist": 60.0,
+      "MaximumEnergyResist": 150.0
+    },
+    {
+      "Races": [
+        "00C606:DLCNukaWorld.esm"
+      ],
+      "MinimumHealth": 30.0,
+      "MaximumHealth": 50.0,
+      "MinimumPhysicalResist": 10.0,
+      "MaximumPhysicalResist": 15.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 5.0
+    },
+    {
+      "Races": [
+        "00B028:DLCNukaWorld.esm"
+      ],
+      "MinimumHealth": 75.0,
+      "MaximumHealth": 100.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 5.0,
+      "MinimumEnergyResist": 5.0,
+      "MaximumEnergyResist": 10.0
+    },
+    {
+      "Races": [
+        "000FA0:Centaur.esl"
+      ],
+      "MinimumHealth": 200.0,
+      "MaximumHealth": 500.0,
+      "MinimumPhysicalResist": 20.0,
+      "MaximumPhysicalResist": 40.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 100.0
+    },
+    {
+      "Races": [
+        "00087E:Centaur.esl"
+      ],
+      "MinimumHealth": 275.0,
+      "MaximumHealth": 520.0,
+      "MinimumPhysicalResist": 20.0,
+      "MaximumPhysicalResist": 50.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 175.0
+    },
+    {
+      "Races": [
+        "000B1A:CWCreateABot.esp"
+      ],
+      "MinimumHealth": 450.0,
+      "MaximumHealth": 600.0,
+      "MinimumPhysicalResist": 250.0,
+      "MaximumPhysicalResist": 350.0,
+      "MinimumEnergyResist": 20.0,
+      "MaximumEnergyResist": 25.0
+    },
+    {
+      "Races": [
+        "008F32:CWPointLookoutFO4.esm"
+      ],
+      "MinimumHealth": 60.0,
+      "MaximumHealth": 100.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 10.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 0.0
+    },
+    {
+      "Races": [
+        "013DB9:CWPointLookoutFO4.esm"
+      ],
+      "MinimumHealth": 110.0,
+      "MaximumHealth": 150.0,
+      "MinimumPhysicalResist": 2.0,
+      "MaximumPhysicalResist": 15.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 0.0
+    },
+    {
+      "Races": [
+        "00895E:CWPointLookoutFO4.esm"
+      ],
+      "MinimumHealth": 160.0,
+      "MaximumHealth": 220.0,
+      "MinimumPhysicalResist": 5.0,
+      "MaximumPhysicalResist": 20.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 0.0
+    },
+    {
+      "Races": [
+        "01FDFA:CWPointLookoutFO4.esm"
+      ],
+      "MinimumHealth": 200.0,
+      "MaximumHealth": 300.0,
+      "MinimumPhysicalResist": 60.0,
+      "MaximumPhysicalResist": 75.0,
+      "MinimumEnergyResist": 40.0,
+      "MaximumEnergyResist": 65.0
+    },
+    {
+      "Races": [
+        "000F99:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 80.0,
+      "MaximumHealth": 180.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 25.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 125.0
+    },
+    {
+      "Races": [
+        "008955:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 120.0,
+      "MaximumHealth": 225.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 20.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 115.0
+    },
+    {
+      "Races": [
+        "01031D:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 130.0,
+      "MaximumHealth": 245.0,
+      "MinimumPhysicalResist": 150.0,
+      "MaximumPhysicalResist": 175.0,
+      "MinimumEnergyResist": 100.0,
+      "MaximumEnergyResist": 200.0
+    },
+    {
+      "Races": [
+        "011264:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 100.0,
+      "MaximumHealth": 180.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 20.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 150.0
+    },
+    {
+      "Races": [
+        "036C58:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 100.0,
+      "MaximumHealth": 160.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 15.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 100.0
+    },
+    {
+      "Races": [
+        "0611FA:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 350.0,
+      "MaximumHealth": 665.0,
+      "MinimumPhysicalResist": 50.0,
+      "MaximumPhysicalResist": 80.0,
+      "MinimumEnergyResist": 20.0,
+      "MaximumEnergyResist": 150.0
+    },
+    {
+      "Races": [
+        "072055:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 120.0,
+      "MaximumHealth": 200.0,
+      "MinimumPhysicalResist": 10.0,
+      "MaximumPhysicalResist": 20.0,
+      "MinimumEnergyResist": 15.0,
+      "MaximumEnergyResist": 125.0
+    },
+    {
+      "Races": [
+        "07EAE0:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 100.0,
+      "MaximumHealth": 130.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 40.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 150.0
+    },
+    {
+      "Races": [
+        "0D752C:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 150.0,
+      "MaximumHealth": 250.0,
+      "MinimumPhysicalResist": 10.0,
+      "MaximumPhysicalResist": 40.0,
+      "MinimumEnergyResist": 10.0,
+      "MaximumEnergyResist": 150.0
+    },
+    {
+      "Races": [
+        "15A2AE:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 75.0,
+      "MaximumHealth": 100.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 5.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 150.0
+    },
+    {
+      "Races": [
+        "166ED9:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 5.0,
+      "MaximumHealth": 10.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 0.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 0.0
+    },
+    {
+      "Races": [
+        "17C475:[ARRETH] FGEP.esp"
+      ],
+      "MinimumHealth": 90.0,
+      "MaximumHealth": 175.0,
+      "MinimumPhysicalResist": 0.0,
+      "MaximumPhysicalResist": 15.0,
+      "MinimumEnergyResist": 0.0,
+      "MaximumEnergyResist": 100.0
+    }
+  ],
+  "KeywordEntries": [],
+  "FactionEntries": [
+    {
+      "Faction": "010004:DLCRobot.esm",
+      "FactionScale": {
+        "HealthScale": 1.15,
+        "HealthShift": 0.0,
+        "DamageResistScale": 1.15,
+        "DamageResistShift": 0.0,
+        "EnergyResistScale": 1.15,
+        "EnergyResistShift": 0.0
+      }
+    },
+    {
+      "Faction": "004385:DLCRobot.esm",
+      "FactionScale": {
+        "HealthScale": 1.1,
+        "HealthShift": 0.0,
+        "DamageResistScale": 1.1,
+        "DamageResistShift": 0.0,
+        "EnergyResistScale": 1.1,
+        "EnergyResistShift": 0.0
+      }
+    }
+  ],
+  "PerkEntries": [
+    {
+      "Perk": "20AEE4:Fallout4.esm",
+      "PerkScale": {
+        "HealthScale": 2.0,
+        "HealthShift": 0.0,
+        "DamageResistScale": 1.0,
+        "DamageResistShift": 50.0,
+        "EnergyResistScale": 1.0,
+        "EnergyResistShift": 15.0
+      }
+    }
+  ],
+  "GeneralScaling": {
+    "HealthScale": 0.5,
+    "HealthShift": 50.0,
+    "DamageResistScale": 1.0,
+    "DamageResistShift": 0.0,
+    "EnergyResistScale": 1.0,
+    "EnergyResistShift": 0.0
+  },
+  "ValueModifiers": {
+    "HealthScale": 1.0,
+    "HealthShift": 0.0,
+    "DamageResistScale": 1.0,
+    "DamageResistShift": 0.0,
+    "EnergyResistScale": 1.0,
+    "EnergyResistShift": 0.0
+  }
+}
