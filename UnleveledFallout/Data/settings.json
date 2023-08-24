@@ -22,8 +22,8 @@
       ],
       "MinimumHealth": 300.0,
       "MaximumHealth": 400.0,
-      "MinimumPhysicalResist": 300.0,
-      "MaximumPhysicalResist": 300.0,
+      "MinimumPhysicalResist": 250.0,
+      "MaximumPhysicalResist": 250.0,
       "MinimumEnergyResist": 10.0,
       "MaximumEnergyResist": 20.0
     },
@@ -32,10 +32,10 @@
         "0BB7D9:Fallout4.esm",
         "001EE2:ClassicBehemoth.esp"
       ],
-      "MinimumHealth": 2000.0,
-      "MaximumHealth": 2600.0,
+      "MinimumHealth": 1500.0,
+      "MaximumHealth": 2000.0,
       "MinimumPhysicalResist": 50.0,
-      "MaximumPhysicalResist": 75.0,
+      "MaximumPhysicalResist": 60.0,
       "MinimumEnergyResist": 25.0,
       "MaximumEnergyResist": 50.0
     },
@@ -44,7 +44,7 @@
         "029463:Fallout4.esm",
         "000A61:DLCworkshop01.esm"
       ],
-      "MinimumHealth": 10.0,
+      "MinimumHealth": 20.0,
       "MaximumHealth": 40.0,
       "MinimumPhysicalResist": 10.0,
       "MaximumPhysicalResist": 20.0,
@@ -71,7 +71,7 @@
       "MinimumHealth": 200.0,
       "MaximumHealth": 330.0,
       "MinimumPhysicalResist": 10.0,
-      "MaximumPhysicalResist": 30.0,
+      "MaximumPhysicalResist": 20.0,
       "MinimumEnergyResist": 0.0,
       "MaximumEnergyResist": 15.0
     },
@@ -93,8 +93,8 @@
         "000C78:DLCworkshop01.esm",
         "00D329:DLCNukaWorld.esm"
       ],
-      "MinimumHealth": 750.0,
-      "MaximumHealth": 1250.0,
+      "MinimumHealth": 700.0,
+      "MaximumHealth": 900.0,
       "MinimumPhysicalResist": 150.0,
       "MaximumPhysicalResist": 225.0,
       "MinimumEnergyResist": 150.0,
@@ -108,7 +108,7 @@
         "000C7D:DLCworkshop01.esm"
       ],
       "MinimumHealth": 60.0,
-      "MaximumHealth": 130.0,
+      "MaximumHealth": 80.0,
       "MinimumPhysicalResist": 0.0,
       "MaximumPhysicalResist": 15.0,
       "MinimumEnergyResist": 0.0,
@@ -144,7 +144,7 @@
         "0A96BF:Fallout4.esm",
         "01EA8E:CWPointLookoutFO4.esm"
       ],
-      "MinimumHealth": 125.0,
+      "MinimumHealth": 200.0,
       "MaximumHealth": 300.0,
       "MinimumPhysicalResist": 10.0,
       "MaximumPhysicalResist": 40.0,
@@ -157,11 +157,11 @@
         "000A56:DLCworkshop01.esm"
       ],
       "MinimumHealth": 375.0,
-      "MaximumHealth": 600.0,
+      "MaximumHealth": 450.0,
       "MinimumPhysicalResist": 50.0,
-      "MaximumPhysicalResist": 75.0,
-      "MinimumEnergyResist": 25.0,
-      "MaximumEnergyResist": 50.0
+      "MaximumPhysicalResist": 60.0,
+      "MinimumEnergyResist": 15.0,
+      "MaximumEnergyResist": 25.0
     },
     {
       "Races": [
@@ -170,8 +170,8 @@
         "000823:ClassicGhoulRace2022.esp",
         "01EAA3:CWPointLookoutFO4.esm"
       ],
-      "MinimumHealth": 90.0,
-      "MaximumHealth": 165.0,
+      "MinimumHealth": 80.0,
+      "MaximumHealth": 120.0,
       "MinimumPhysicalResist": 0.0,
       "MaximumPhysicalResist": 0.0,
       "MinimumEnergyResist": 0.0,
@@ -182,7 +182,7 @@
         "023FFC:Fallout4.esm",
         "000A5B:DLCworkshop01.esm"
       ],
-      "MinimumHealth": 120.0,
+      "MinimumHealth": 150.0,
       "MaximumHealth": 250.0,
       "MinimumPhysicalResist": 30.0,
       "MaximumPhysicalResist": 50.0,
@@ -217,8 +217,8 @@
       "Races": [
         "0E12A6:Fallout4.esm"
       ],
-      "MinimumHealth": 2000.0,
-      "MaximumHealth": 2600.0,
+      "MinimumHealth": 1500.0,
+      "MaximumHealth": 2000.0,
       "MinimumPhysicalResist": 65.0,
       "MaximumPhysicalResist": 75.0,
       "MinimumEnergyResist": 90.0,
@@ -230,8 +230,8 @@
         "000C7F:DLCworkshop01.esm",
         "001766:DCMolerats.esp"
       ],
-      "MinimumHealth": 30.0,
-      "MaximumHealth": 120.0,
+      "MinimumHealth": 45.0,
+      "MaximumHealth": 70.0,
       "MinimumPhysicalResist": 0.0,
       "MaximumPhysicalResist": 15.0,
       "MinimumEnergyResist": 0.0,
@@ -244,8 +244,8 @@
         "000C05:DLCworkshop01.esm",
         "02104F:SS2.esm"
       ],
-      "MinimumHealth": 125.0,
-      "MaximumHealth": 350.0,
+      "MinimumHealth": 150.0,
+      "MaximumHealth": 300.0,
       "MinimumPhysicalResist": 150.0,
       "MaximumPhysicalResist": 300.0,
       "MinimumEnergyResist": 20.0,
@@ -269,8 +269,8 @@
         "000BF8:CWCreateABot.esp",
         "01EBC4:CWPointLookoutFO4.esm"
       ],
-      "MinimumHealth": 100.0,
-      "MaximumHealth": 175.0,
+      "MinimumHealth": 125.0,
+      "MaximumHealth": 200.0,
       "MinimumPhysicalResist": 100.0,
       "MaximumPhysicalResist": 175.0,
       "MinimumEnergyResist": 20.0,
@@ -281,10 +281,10 @@
         "04716C:Fallout4.esm",
         "000A63:DLCworkshop01.esm"
       ],
-      "MinimumHealth": 10.0,
+      "MinimumHealth": 15.0,
       "MaximumHealth": 25.0,
-      "MinimumPhysicalResist": 0.0,
-      "MaximumPhysicalResist": 5.0,
+      "MinimumPhysicalResist": 10.0,
+      "MaximumPhysicalResist": 15.0,
       "MinimumEnergyResist": 0.0,
       "MaximumEnergyResist": 5.0
     },
@@ -294,9 +294,9 @@
         "000A5C:DLCworkshop01.esm"
       ],
       "MinimumHealth": 350.0,
-      "MaximumHealth": 665.0,
+      "MaximumHealth": 600.0,
       "MinimumPhysicalResist": 125.0,
-      "MaximumPhysicalResist": 250.0,
+      "MaximumPhysicalResist": 200.0,
       "MinimumEnergyResist": 20.0,
       "MaximumEnergyResist": 75.0
     },
@@ -305,7 +305,7 @@
         "07ED1D:Fallout4.esm",
         "000A5D:DLCworkshop01.esm"
       ],
-      "MinimumHealth": 50.0,
+      "MinimumHealth": 200.0,
       "MaximumHealth": 300.0,
       "MinimumPhysicalResist": 0.0,
       "MaximumPhysicalResist": 15.0,
@@ -331,7 +331,7 @@
         "033169:DLCNukaWorld.esm"
       ],
       "MinimumHealth": 35.0,
-      "MaximumHealth": 65.0,
+      "MaximumHealth": 60.0,
       "MinimumPhysicalResist": 0.0,
       "MaximumPhysicalResist": 15.0,
       "MinimumEnergyResist": 10.0,
@@ -344,10 +344,10 @@
         "000FA6:DCWestSuperMutants.esp",
         "000F99:DCWestSuperMutants.esp"
       ],
-      "MinimumHealth": 400.0,
-      "MaximumHealth": 550.0,
+      "MinimumHealth": 350.0,
+      "MaximumHealth": 500.0,
       "MinimumPhysicalResist": 20.0,
-      "MaximumPhysicalResist": 50.0,
+      "MaximumPhysicalResist": 35.0,
       "MinimumEnergyResist": 10.0,
       "MaximumEnergyResist": 30.0
     },
@@ -356,9 +356,9 @@
         "0E8D09:Fallout4.esm"
       ],
       "MinimumHealth": 100.0,
-      "MaximumHealth": 175.0,
+      "MaximumHealth": 130.0,
       "MinimumPhysicalResist": 80.0,
-      "MaximumPhysicalResist": 125.0,
+      "MaximumPhysicalResist": 95.0,
       "MinimumEnergyResist": 5.0,
       "MaximumEnergyResist": 15.0
     },
@@ -368,10 +368,10 @@
         "2261A4:Fallout4.esm",
         "042EBB:DLCCoast.esm"
       ],
-      "MinimumHealth": 160.0,
-      "MaximumHealth": 250.0,
+      "MinimumHealth": 130.0,
+      "MaximumHealth": 160.0,
       "MinimumPhysicalResist": 100.0,
-      "MaximumPhysicalResist": 150.0,
+      "MaximumPhysicalResist": 115.0,
       "MinimumEnergyResist": 10.0,
       "MaximumEnergyResist": 25.0
     },
@@ -381,10 +381,10 @@
         "0B1F08:Fallout4.esm",
         "020475:CWPointLookoutFO4.esm"
       ],
-      "MinimumHealth": 100.0,
-      "MaximumHealth": 200.0,
+      "MinimumHealth": 175.0,
+      "MaximumHealth": 225.0,
       "MinimumPhysicalResist": 125.0,
-      "MaximumPhysicalResist": 200.0,
+      "MaximumPhysicalResist": 125.0,
       "MinimumEnergyResist": 5.0,
       "MaximumEnergyResist": 25.0
     },
@@ -393,10 +393,10 @@
         "0B28D3:Fallout4.esm",
         "009591:DLCCoast.esm"
       ],
-      "MinimumHealth": 75.0,
-      "MaximumHealth": 150.0,
+      "MinimumHealth": 100.0,
+      "MaximumHealth": 125.0,
       "MinimumPhysicalResist": 100.0,
-      "MaximumPhysicalResist": 150.0,
+      "MaximumPhysicalResist": 100.0,
       "MinimumEnergyResist": 0.0,
       "MaximumEnergyResist": 20.0
     },
@@ -418,9 +418,9 @@
         "000824:CWYaoGuai.esl"
       ],
       "MinimumHealth": 350.0,
-      "MaximumHealth": 650.0,
+      "MaximumHealth": 600.0,
       "MinimumPhysicalResist": 20.0,
-      "MaximumPhysicalResist": 40.0,
+      "MaximumPhysicalResist": 35.0,
       "MinimumEnergyResist": 15.0,
       "MaximumEnergyResist": 30.0
     },
@@ -431,7 +431,7 @@
       ],
       "MinimumHealth": 200.0,
       "MaximumHealth": 300.0,
-      "MinimumPhysicalResist": 100.0,
+      "MinimumPhysicalResist": 125.0,
       "MaximumPhysicalResist": 175.0,
       "MinimumEnergyResist": 15.0,
       "MaximumEnergyResist": 25.0
@@ -465,9 +465,9 @@
       "MinimumHealth": 1000.0,
       "MaximumHealth": 1400.0,
       "MinimumPhysicalResist": 200.0,
-      "MaximumPhysicalResist": 300.0,
+      "MaximumPhysicalResist": 250.0,
       "MinimumEnergyResist": 200.0,
-      "MaximumEnergyResist": 300.0
+      "MaximumEnergyResist": 250.0
     },
     {
       "Races": [
@@ -478,7 +478,7 @@
       "MinimumPhysicalResist": 0.0,
       "MaximumPhysicalResist": 25.0,
       "MinimumEnergyResist": 50.0,
-      "MaximumEnergyResist": 150.0
+      "MaximumEnergyResist": 100.0
     },
     {
       "Races": [
@@ -488,7 +488,7 @@
       "MaximumHealth": 600.0,
       "MinimumPhysicalResist": 0.0,
       "MaximumPhysicalResist": 15.0,
-      "MinimumEnergyResist": 50.0,
+      "MinimumEnergyResist": 40.0,
       "MaximumEnergyResist": 70.0
     },
     {
@@ -498,9 +498,9 @@
       "MinimumHealth": 1600.0,
       "MaximumHealth": 2300.0,
       "MinimumPhysicalResist": 125.0,
-      "MaximumPhysicalResist": 200.0,
+      "MaximumPhysicalResist": 175.0,
       "MinimumEnergyResist": 100.0,
-      "MaximumEnergyResist": 300.0
+      "MaximumEnergyResist": 200.0
     },
     {
       "Races": [
@@ -597,9 +597,9 @@
       "MinimumHealth": 375.0,
       "MaximumHealth": 460.0,
       "MinimumPhysicalResist": 10.0,
-      "MaximumPhysicalResist": 50.0,
+      "MaximumPhysicalResist": 25.0,
       "MinimumEnergyResist": 60.0,
-      "MaximumEnergyResist": 150.0
+      "MaximumEnergyResist": 90.0
     },
     {
       "Races": [
@@ -631,7 +631,7 @@
       "MaximumHealth": 500.0,
       "MinimumPhysicalResist": 20.0,
       "MaximumPhysicalResist": 40.0,
-      "MinimumEnergyResist": 0.0,
+      "MinimumEnergyResist": 20.0,
       "MaximumEnergyResist": 100.0
     },
     {
@@ -642,7 +642,7 @@
       "MaximumHealth": 520.0,
       "MinimumPhysicalResist": 20.0,
       "MaximumPhysicalResist": 50.0,
-      "MinimumEnergyResist": 0.0,
+      "MinimumEnergyResist": 35.0,
       "MaximumEnergyResist": 175.0
     },
     {
