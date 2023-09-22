@@ -27,13 +27,17 @@ namespace UnleveledFallout
         public float configPhysResMax = -1;
         public float configEnergyResMin = -1;
         public float configEnergyResMax = -1;
+
+        public RaceEntry() {}
     }
 
     public class Program
     {
-        public static Lazy<UnleveledFalloutConfig> _config = null!;
+        private static Lazy<UnleveledFalloutConfig> _config = null!;
 
-        public static Dictionary<IFormLinkGetter<IRaceGetter>, RaceEntry> RaceEntries = new();
+        public static UnleveledFalloutConfig Settings => _config.Value;
+
+        public static readonly Dictionary<IFormLinkGetter<IRaceGetter>, RaceEntry> RaceEntries = new();
 
         public static async Task<int> Main(string[] args)
         {
@@ -79,9 +83,7 @@ namespace UnleveledFallout
             catch
             {
                 retAV = new() { ActorValue = actorValue, Value = 0.0f };
-                if (npcSetter.Properties is null)
-                    npcSetter.Properties = new();
-
+                npcSetter.Properties ??= new();
                 npcSetter.Properties.Add(retAV);
             }
 
@@ -150,27 +152,27 @@ namespace UnleveledFallout
         public static bool ApplyValueModifiers(IPatcherState<IFallout4Mod, IFallout4ModGetter> state, Npc npcSetter)
         {
             bool wasChanged = false;
-            if (_config.Value.ValueModifiers.HealthScale != 1 || _config.Value.ValueModifiers.HealthShift != 0)
+            if (Settings.ValueModifiers.HealthScale != 1 || Settings.ValueModifiers.HealthShift != 0)
             {
                 var healthAV = GetOrAddAV(npcSetter, Fallout4.ActorValueInformation.Health);
                 var totalHealth = GetTotalAV(state, npcSetter, Fallout4.ActorValueInformation.Health);
-                healthAV.Value = totalHealth * _config.Value.ValueModifiers.HealthScale - (totalHealth - healthAV.Value) + _config.Value.ValueModifiers.HealthShift;
+                healthAV.Value = totalHealth * Settings.ValueModifiers.HealthScale - (totalHealth - healthAV.Value) + Settings.ValueModifiers.HealthShift;
                 wasChanged = true;
             }
 
-            if (_config.Value.ValueModifiers.DamageResistScale != 1 || _config.Value.ValueModifiers.DamageResistShift != 0)
+            if (Settings.ValueModifiers.DamageResistScale != 1 || Settings.ValueModifiers.DamageResistShift != 0)
             {
                 var physResAV = GetOrAddAV(npcSetter, Fallout4.ActorValueInformation.DamageResist);
                 var totalPhysRes = GetTotalAV(state, npcSetter, Fallout4.ActorValueInformation.DamageResist);
-                physResAV.Value = totalPhysRes * _config.Value.ValueModifiers.DamageResistScale - (totalPhysRes - physResAV.Value) + _config.Value.ValueModifiers.DamageResistShift;
+                physResAV.Value = totalPhysRes * Settings.ValueModifiers.DamageResistScale - (totalPhysRes - physResAV.Value) + Settings.ValueModifiers.DamageResistShift;
                 wasChanged = true;
             }
 
-            if (_config.Value.ValueModifiers.EnergyResistScale != 1 || _config.Value.ValueModifiers.EnergyResistShift != 0)
+            if (Settings.ValueModifiers.EnergyResistScale != 1 || Settings.ValueModifiers.EnergyResistShift != 0)
             {
                 var energyResAV = GetOrAddAV(npcSetter, Fallout4.ActorValueInformation.EnergyResist);
                 var totalEnergyRes = GetTotalAV(state, npcSetter, Fallout4.ActorValueInformation.EnergyResist);
-                energyResAV.Value = totalEnergyRes * _config.Value.ValueModifiers.EnergyResistScale - (totalEnergyRes - energyResAV.Value) + _config.Value.ValueModifiers.EnergyResistShift;
+                energyResAV.Value = totalEnergyRes * Settings.ValueModifiers.EnergyResistScale - (totalEnergyRes - energyResAV.Value) + Settings.ValueModifiers.EnergyResistShift;
                 wasChanged = true;
             }
 
@@ -207,9 +209,9 @@ namespace UnleveledFallout
                 if (healthAV.Value == 0)
                     return false;
 
-                healthAV.Value = totalHealth * _config.Value.GeneralScaling.HealthScale - (totalHealth - healthAV.Value) + _config.Value.GeneralScaling.HealthShift;
-                physResAV.Value = totalPhysRes * _config.Value.GeneralScaling.DamageResistScale - (totalPhysRes - physResAV.Value) + _config.Value.GeneralScaling.DamageResistShift;
-                energyResAV.Value = totalEnergyRes * _config.Value.GeneralScaling.EnergyResistScale - (totalEnergyRes - energyResAV.Value) + _config.Value.GeneralScaling.EnergyResistShift;
+                healthAV.Value = totalHealth * Settings.GeneralScaling.HealthScale - (totalHealth - healthAV.Value) + Settings.GeneralScaling.HealthShift;
+                physResAV.Value = totalPhysRes * Settings.GeneralScaling.DamageResistScale - (totalPhysRes - physResAV.Value) + Settings.GeneralScaling.DamageResistShift;
+                energyResAV.Value = totalEnergyRes * Settings.GeneralScaling.EnergyResistScale - (totalEnergyRes - energyResAV.Value) + Settings.GeneralScaling.EnergyResistShift;
                 Console.WriteLine("\t - Applying general scaling settings.");
             }
 
@@ -219,7 +221,7 @@ namespace UnleveledFallout
         public static bool ApplyKeywordBalance(IPatcherState<IFallout4Mod, IFallout4ModGetter> state, Npc npcSetter)
         {
             bool wasChanged = false;
-            foreach (var keywordEntry in _config.Value.KeywordEntries)
+            foreach (var keywordEntry in Settings.KeywordEntries)
             {
                 if (!npcSetter.HasKeyword(keywordEntry.Keyword))
                     continue;
@@ -243,7 +245,7 @@ namespace UnleveledFallout
         public static bool ApplyFactionBalance(IPatcherState<IFallout4Mod, IFallout4ModGetter> state, Npc npcSetter)
         {
             bool wasChanged = false;
-            foreach (var factionEntry in _config.Value.FactionEntries)
+            foreach (var factionEntry in Settings.FactionEntries)
             {
                 if (!npcSetter.Factions.EmptyIfNull().Any(entry => entry.Faction.Equals(factionEntry.Faction)))
                     continue;
@@ -267,7 +269,7 @@ namespace UnleveledFallout
         public static bool ApplyPerkBalance(IPatcherState<IFallout4Mod, IFallout4ModGetter> state, Npc npcSetter)
         {
             bool wasChanged = false;
-            foreach (var perkEntry in _config.Value.PerkEntries)
+            foreach (var perkEntry in Settings.PerkEntries)
             {
                 if (!npcSetter.Perks.EmptyIfNull().Any(entry => entry.Perk.Equals(perkEntry.Perk)))
                     continue;
@@ -292,20 +294,22 @@ namespace UnleveledFallout
         {
             Console.WriteLine("Changing game settings.");
             if (Fallout4.GameSetting.fAVDHealthStartEndMult.TryResolve(state.LinkCache, out var startEndMult))
-                (state.PatchMod.GameSettings.GetOrAddAsOverride(startEndMult) as GameSettingFloat)!.Data = _config.Value.fAVDHealthStartEndMult;
+                (state.PatchMod.GameSettings.GetOrAddAsOverride(startEndMult) as GameSettingFloat)!.Data = Settings.fAVDHealthStartEndMult;
 
             if (Fallout4.GameSetting.fNPCHealthLevelBonus.TryResolve(state.LinkCache, out var npcBonus))
-                (state.PatchMod.GameSettings.GetOrAddAsOverride(npcBonus) as GameSettingFloat)!.Data = _config.Value.fNPCHealthLevelBonus;
+                (state.PatchMod.GameSettings.GetOrAddAsOverride(npcBonus) as GameSettingFloat)!.Data = Settings.fNPCHealthLevelBonus;
 
             if (Fallout4.GameSetting.fPCHealthLevelBonus.TryResolve(state.LinkCache, out var pcBonus))
-                (state.PatchMod.GameSettings.GetOrAddAsOverride(pcBonus) as GameSettingFloat)!.Data = _config.Value.fPCHealthLevelBonus;
+                (state.PatchMod.GameSettings.GetOrAddAsOverride(pcBonus) as GameSettingFloat)!.Data = Settings.fPCHealthLevelBonus;
 
             if (Fallout4.GameSetting.fHealthEnduranceOffset.TryResolve(state.LinkCache, out var enduranceOffset))
-                (state.PatchMod.GameSettings.GetOrAddAsOverride(enduranceOffset) as GameSettingFloat)!.Data = _config.Value.fHealthEnduranceOffset;
+                (state.PatchMod.GameSettings.GetOrAddAsOverride(enduranceOffset) as GameSettingFloat)!.Data = Settings.fHealthEnduranceOffset;
 
-            var enduranceMult = new GameSettingFloat(state.PatchMod, "fHealthEnduranceMult");
-            enduranceMult.FormVersion = 131;
-            enduranceMult.Data = _config.Value.fHealthEnduranceMult;
+            var enduranceMult = new GameSettingFloat(state.PatchMod, "fHealthEnduranceMult")
+            {
+                FormVersion = 131,
+                Data = Settings.fHealthEnduranceMult
+            };
             state.PatchMod.GameSettings.Add(enduranceMult);
 
             Console.WriteLine("Populating race entries.");
@@ -314,13 +318,12 @@ namespace UnleveledFallout
                 if (npcGetter.Equals(Fallout4.Npc.Player) || npcGetter.UseTemplateActors.HasFlag(Npc.TemplateActorType.Stats))
                     continue;
 
-                RaceEntry raceEntry;
-                if (!RaceEntries.TryGetValue(npcGetter.Race, out raceEntry))
+                if (!RaceEntries.TryGetValue(npcGetter.Race, out RaceEntry raceEntry))
                 {
                     ConfigRaceEntry? configEntry = null;
                     try
                     {
-                        configEntry = _config.Value.RaceEntries.First(entry => entry.Races.Any(subEntry => subEntry.Equals(npcGetter.Race)));
+                        configEntry = Settings.RaceEntries.First(entry => entry.Races.Any(subEntry => subEntry.Equals(npcGetter.Race)));
                     }
                     catch { }
 
