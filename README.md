@@ -26,7 +26,9 @@ The pros this mod offers are as follows:
 - Level-based health scaling is completely eliminated both for the player and enemies by default, without having to worry about compatibility.
 
 ## Cons Compared To SCOURGE
-This mod changes the actual plugin data and it seems like Fallout 4 bakes all the actor information into the save data when a new game is started. This means that a **new game is required** for changes to take effect. This is also true if you make changes to the settings and regenerate the mod.
+This mod changes the actual plugin data and it seems like Fallout 4 bakes all the actor information into the save data when a new game is started.
+
+This means that a **new game is required** for changes to take effect. This is also true if you make changes to the settings and regenerate the mod.
 
 ## Known Issues
 The user settings menu is very slow when initially loading and when opening the Race Entries submenu. Just be patient and it'll open fine, Synthesis did not crash.
