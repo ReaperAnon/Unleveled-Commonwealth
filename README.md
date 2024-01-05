@@ -3,7 +3,7 @@
 ### [Synthesis Install](https://github.com/Mutagen-Modding/Synthesis/wiki/Installation)
 ### [How to Use](https://github.com/Mutagen-Modding/Synthesis/wiki/Typical-Usage#adding-patchers)
 
-### [Support Discord](https://discord.gg/u4zNjc2a)
+### [Support Discord](https://discord.gg/5FaCGrFYM3)
 
 The mod can be found either by searching for UnleveledFallout on the patcher list or added via the .synth file found [here](https://github.com/ReaperAnon/Unleveled-Commonwealth/releases/tag/meta).
 
